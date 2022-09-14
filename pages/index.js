@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Layot from '../components/Layot';
 
 export default function Home() {
@@ -6,8 +5,7 @@ export default function Home() {
     <div>
       <Layot pagina = {"Inicio"}>
         <h1>Desde el inicio</h1>
-      </Layot>
-      <Link href="/nosotros">Nosotros</Link>
+      </Layot>     
     </div>
   )
 }

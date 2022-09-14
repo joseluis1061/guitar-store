@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 import Header from './Header';
-
+import Footer from './Footer';
 const Layot = ({children, pagina}) => {
   return (
     <div>
@@ -12,6 +12,7 @@ const Layot = ({children, pagina}) => {
       </Head>
       <Header/>
       {children}
+      <Footer/>
     </div>
   )
 }
