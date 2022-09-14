@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Layot from "../components/Layot";
 import Link from "next/link";
 

@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Head from "next/head";
+import Header from './Header';
 
 const Layot = ({children, pagina}) => {
   return (
@@ -9,7 +10,7 @@ const Layot = ({children, pagina}) => {
         <meta name="description" content="Web de venta de guitarras" />
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <p>Desde el Layot</p>
+      <Header/>
       {children}
     </div>
   )

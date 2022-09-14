@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layot from '../components/Layot'
+import Link from 'next/link';
+import Layot from '../components/Layot';
 
 export default function Home() {
   return (
