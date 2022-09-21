@@ -10,11 +10,13 @@ const Layot = ({children, pagina}) => {
         <meta name="description" content="Web de venta de guitarras" />
         <link rel="icon" href="favicon.ico" />
       </Head>
+
       <Header/>
       {children}
       <Footer/>
+      
     </div>
   )
 }
 
-export default Layot
+export default Layot;

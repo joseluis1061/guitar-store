@@ -10,14 +10,16 @@ const Header = () => {
         <div className={styles.barra}>
       
           <Link href="/">
-            <Image width={400} height={100} src="/img/logo.svg" alt="Imagen logo"/>
+            <a>  
+              <Image width={400} height={100} src="/img/logo.svg" alt="Imagen logo"/>
+            </a>
           </Link>
 
           <nav className={styles.navegacion}>
-            <Link href="/">Inicio</Link>
-            <Link href="/nosotros">Nosotros</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/tienda">Tienda</Link>
+            <Link href="/"><a>Inicio</a></Link>
+            <Link href="/nosotros"><a>Nosotros</a></Link>
+            <Link href="/blog"><a>Blog</a></Link>
+            <Link href="/tienda"><a>Tienda</a></Link>
           </nav>
           </div>
        
